@@ -15,9 +15,9 @@ namespace Tyuiu.FaizullinDR.Sprint3.Task0.V1.Lib
             double res = 0;
             for (int i = 1; i <= 15; i++)
             {
-                res += value * value * i;
+                res += value * value * i + 1;
             }
-            return res+1;
+            return res;
         }
     }
 }

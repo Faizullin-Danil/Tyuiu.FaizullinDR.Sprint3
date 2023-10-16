@@ -15,7 +15,7 @@ namespace Tyuiu.FaizullinDR.Sprint3.Task0.V1.Test
 
             double x = 4;
             double res = ds.GetSumSeries(x);
-            double wait = 1921;
+            double wait = 1935;
             Assert.AreEqual(wait, res);
         }
     }
