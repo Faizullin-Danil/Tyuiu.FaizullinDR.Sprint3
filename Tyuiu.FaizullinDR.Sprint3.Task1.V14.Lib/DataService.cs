@@ -16,10 +16,10 @@ namespace Tyuiu.FaizullinDR.Sprint3.Task1.V14.Lib
             double res = 0;
             while (k != 15)
             {
-                res += ((Math.Pow(value, k)) + (1 / (k + 1)));
+                res += ((Math.Pow(value, k)) + (1 / (k + 1)))*Math.Cos(value);
                 k++;
             }
-            return Math.Round(res * Math.Cos(value),3);
+            return Math.Round(res,3);
         }
     }
 }
